@@ -4,6 +4,19 @@
     text-decoration: none;
     border: none;
 }
+
+span{
+    color: #ffcc10;
+}
+h2{
+    font-weight: 800;
+    font-family: revert;
+    text-transform: capitalize;
+    margin: 15px 0px;
+    line-height: 1.5;
+    color: #737373;
+    font-size: 36px;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -66,18 +79,6 @@ body{
     float: left;
     margin-top: 60px;
 }
-.slider-content h2{
-    font-weight: 800;
-    font-family: revert;
-    text-transform: capitalize;
-    margin: 15px 0px;
-    line-height: 1.5;
-    color: #737373;
-    font-size: 36px;
-}
-.slider-content h2 span{
-    color: #ffcc10;
-}
 .slider-content p{
     color: #000;
     font-size: 16px;
@@ -103,4 +104,187 @@ body{
     height: 440px;
     float: right;
     width: 90%;
+}
+/*--------About Me Area CSS----------*/
+.about-me{
+    background: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px 5px;
+    width: 100%;
+    overflow: hidden;
+}
+.about-me-photo{
+    float: left;
+    display: block;
+    width: 40%;
+}
+.about-me-photo img{
+    float: left;
+    width: 60%;
+    max-height: 380px;
+    margin-top: 38px;
+}
+.about-me-content{
+    width: 60%;
+    float: right;
+    margin-top: 100px;
+}
+.about-me-content p{
+
+}
+.about-me-content a{
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #a07373;
+    margin: 15px 0px;
+    display: inline-block;
+    background-image: linear-gradient(#c59f18, #ffcc10);
+    font-size: 15px;
+}
+/*--------My Receipe Area CSS----------*/
+.menu-items{
+
+}
+.menu-title{
+    text-align: center;
+    margin: 19px 5px;
+}
+.menu-title p{
+
+}
+.single-items-list{
+    width: 100%;
+    display: inline-flex;
+    align-content: space-around;
+}
+.single-item{
+    width: 31%;
+    float: left;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #ab9f95;
+    border-radius: 20px;
+}
+.single-item img{
+    height: 260px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.single-item h3{
+    
+}
+.single-item p{
+    
+}
+/*--------Fan page Area CSS----------*/
+.fan-page{
+
+}
+.all-fan-page{
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px 10px;
+    margin-top: 80px;
+    box-shadow: 5px 5px 20px #4e4e4e;
+}
+.single-page{
+    width: 33%;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+}
+.single-page p{
+
+}
+/*--------Reservation Area CSS----------*/
+.reservation{
+
+}
+.make-reservation{
+
+}
+.reservation-content{
+    width: 100%;
+    background: #fffefe;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 15px #4e4e4e;
+}
+.image{
+    width: 50%;
+    float: left;
+    display: flex;
+}
+.image img{
+    width: 80%;
+    min-height: 370px;
+}
+.reservation-form{
+    width: 50%;
+    float: right;
+    display: flex;
+    min-height: 370px;
+}
+.inputBox{
+
+}
+.inputBox input[type=text] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+  }
+  .inputBox input[type=email] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+  }
+  .inputBox input[type=number] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+  }
+  textarea {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width:100%;
+    resize: none;
+    display: block;
+  }
+  .btn{
+    color: #000;
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+    background: #ccc;
+    cursor: pointer;
+ }
+ /*--------Footer Area CSS----------*/
+ .footer-area{
+    width: 100%;
+    margin: 15px 0px 0px;
+    overflow: hidden;
+    padding: 10px 5px;
+    background: #000;
+    text-align: center;
+}
+.footer h2{
+   font-size: 20px;
+}
+.footer .Txtcolor{
+    color: #ccc;
+}
+.footer p{
+    color: #fff;
 }
