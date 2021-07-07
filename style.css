@@ -17,6 +17,12 @@ h2{
     color: #737373;
     font-size: 36px;
 }
+h3{
+    color: #000;
+    font-size: larger;
+    padding: 5px;
+    font-weight: bolder;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -84,10 +90,10 @@ body{
     font-size: 16px;
     margin: 15px 0px;
     line-height: 1.8;
-    font-family: cursive;
+    font-family: Verdana;
 }
 .slider-content a{
-    color: #fff;
+    color: #000;
     padding: 12px 15px;
     border-radius: 20px;
     box-shadow: 10px 5px 10px #a07373;
@@ -95,6 +101,10 @@ body{
     display: inline-block;
     background-image: linear-gradient(#c59f18, #ffcc10);
     font-size: 15px;
+}
+.slider-content a:hover{
+    color: #fff;
+    background: #000;
 }
 .slider-photo{
     width: 45%;
@@ -122,27 +132,36 @@ body{
 .about-me-photo img{
     float: left;
     width: 60%;
-    max-height: 380px;
+    max-height: 410px;
     margin-top: 38px;
 }
 .about-me-content{
     width: 60%;
     float: right;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .about-me-content p{
-
+    color: #353535;
+    font-family: cursive;
+    line-height: 2;
+    margin: 25px 0px;
+    display: inline-block;
 }
 .about-me-content a{
-    color: #fff;
+    color: #000;
     padding: 12px 15px;
     border-radius: 20px;
     box-shadow: 10px 5px 10px #a07373;
-    margin: 15px 0px;
+    margin: 20px 0px;
     display: inline-block;
     background-image: linear-gradient(#c59f18, #ffcc10);
     font-size: 15px;
 }
+.about-me-content a:hover{
+    color: #fff;
+    background: #000;
+}
+
 /*--------My Receipe Area CSS----------*/
 .menu-items{
 
@@ -152,7 +171,11 @@ body{
     margin: 19px 5px;
 }
 .menu-title p{
-
+    color: #353535;
+    line-height: 2;
+    display: inline-block;
+    font-family: Verdana;
+    text-align: center;
 }
 .single-items-list{
     width: 100%;
@@ -172,16 +195,14 @@ body{
     margin: 0 auto;
     overflow: hidden;
 }
-.single-item h3{
-    
-}
 .single-item p{
-    
+    font-size: 14px;
+    line-height: 2;
+    display: inline-block;
+    padding: 10px;
+    font-family: Verdana;
 }
 /*--------Fan page Area CSS----------*/
-.fan-page{
-
-}
 .all-fan-page{
     width: 100%;
     min-height: 100px;
@@ -198,14 +219,15 @@ body{
     text-align: center;
 }
 .single-page p{
-
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+    font-family: cursive;
 }
 /*--------Reservation Area CSS----------*/
 .reservation{
-
-}
-.make-reservation{
-
+    margin-top: 50px;
 }
 .reservation-content{
     width: 100%;
@@ -230,9 +252,6 @@ body{
     float: right;
     display: flex;
     min-height: 370px;
-}
-.inputBox{
-
 }
 .inputBox input[type=text] {
     width: 100%;
@@ -270,6 +289,10 @@ body{
     background: #ccc;
     cursor: pointer;
  }
+ .btn:hover{
+    color: #fff;
+    background: #000;
+}
  /*--------Footer Area CSS----------*/
  .footer-area{
     width: 100%;
@@ -284,7 +307,13 @@ body{
 }
 .footer .Txtcolor{
     color: #ccc;
+    margin-bottom: 0px;
 }
 .footer p{
     color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    display: inline-block;
+    padding: 3px 0px 15px 0px;
+    font-family: Verdana;
 }
