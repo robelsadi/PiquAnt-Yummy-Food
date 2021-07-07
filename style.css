@@ -1,3 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.contain{
+    width: 1180px;
+    margin: 0 auto;
+}
+/*--------Header Area CSS----------*/
+#header-area{
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    background: #6b6b6b;
+    padding: 10px 5px;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img {
+    width: 100%;
+    height: 40px;
+}
+.main-menu{
+    width: 85%;
+    float: right;
+    margin-top: 10px;
+}
+.main-menu ul{
+    float: right;
+}
+
+.main-menu ul li{
+   float: left;
+   list-style-type: none; 
+
+}
+.main-menu ul li a{
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+}
+.main-menu ul li a:hover{
+    color: #FEB33E;
+    border-bottom: 1px solid #fff;
+}
+/*--------Slider Area CSS----------*/
+.slider-area{
+    width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.slider-content{
+    width: 55%;
+    float: left;
+    margin-top: 60px;
+}
+.slider-content h2{
+    font-weight: 800;
+    font-family: revert;
+    text-transform: capitalize;
+    margin: 15px 0px;
+    line-height: 1.5;
+    color: #737373;
+    font-size: 36px;
+}
+.slider-content h2 span{
+    color: #ffcc10;
+}
+.slider-content p{
+    color: #000;
+    font-size: 16px;
+    margin: 15px 0px;
+    line-height: 1.8;
+    font-family: cursive;
+}
+.slider-content a{
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #a07373;
+    margin: 15px 0px;
+    display: inline-block;
+    background-image: linear-gradient(#c59f18, #ffcc10);
+    font-size: 15px;
+}
+.slider-photo{
+    width: 45%;
+    float: right;
+}
+.slider-photo img{
+    height: 440px;
+    float: right;
+    width: 90%;
 }
